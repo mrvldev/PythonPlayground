@@ -1,0 +1,5 @@
+wort = input("Wie heisst du? ")
+print(wort.upper())
+print(wort.lower())
+print(len(wort))
+print(wort[0])
