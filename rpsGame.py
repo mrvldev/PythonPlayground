@@ -50,7 +50,7 @@ while True: #The main game loop
         wins = wins + 1
     elif player_move == "s" and computer_move == "p":
         print("You win!")
-        wins + 1
+        wins = wins + 1
     elif player_move == "r" and computer_move ==  "p":
         print("You lose!")
         losses = losses + 1
