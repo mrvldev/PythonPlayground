@@ -1,35 +1,9 @@
-text   = 'Text in python is called string'
-text_2 = "It has to be inside single or double qoutes"
-text_3 = 'We can use "double quotes" inside  single qoutes'
-text_4 = "And ‘vice versa‘ " # This is a string
+user  = 'Eric'
+app   = 'Revit'
 
-
-# But we can not write text in pthon without quotes
-# It will break syntax rule
-
-print(text)
-print(text_2)
-print(text_3)
-print(text_4)
-
-# Do not use as variable or function
-# print
-# type
-# sum
-# filter
-# id
-
-# not
-# in
-# break
-# continue
-# for
-# if
-# elif
-# else
-
-# str
-# float
-# list
-# bool
-# int
+print('Once upon a time, there was a ' + app + ' user named ' + user + '."')
+print(user + " wasted months on soul-draining tasks in " + app + '.')
+print('Until one day, ' + user + ' said: Enough.')
+print('And by accident he discovered thet he could automate his ' + app + ' tasks with python.')
+print('But ' + user + ' knew nothing about python!')
+print('And so, ' + user + ' has begun his programming journey...')
