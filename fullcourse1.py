@@ -1,9 +1,8 @@
-user  = 'Eric'
-app   = 'Revit'
+str_num_a = input('Enter first number: ')
+str_num_b = input('Enter second number: ')
 
-print('Once upon a time, there was a ' + app + ' user named ' + user + '."')
-print(user + " wasted months on soul-draining tasks in " + app + '.')
-print('Until one day, ' + user + ' said: Enough.')
-print('And by accident he discovered thet he could automate his ' + app + ' tasks with python.')
-print('But ' + user + ' knew nothing about python!')
-print('And so, ' + user + ' has begun his programming journey...')
+num_a = float(str_num_a)
+num_b = float(str_num_b)
+
+total = num_a + num_b
+print(f'The sum is: {total}')
