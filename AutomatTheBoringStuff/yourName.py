@@ -1,5 +1,7 @@
 name = ""
-while name != "your name":
+while True:
     print("Please enter your name.")
-    name 0 input(">")
+    name = input(">")
+    if name == "your name":
+        break
 print("Thank you!")

@@ -1,5 +1,5 @@
-name = "Carol"
-age = 3000
+name = "Alice"
+age = 29
 if name == "Alice":
     print("Hi, Alice.")
 
@@ -11,5 +11,6 @@ elif age > 2000:
 
 elif age > 100:
     print("You are not Alice, grannie.")
+
 
 
